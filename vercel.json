@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/oh_draw.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/oh_draw",
+      "dest": "/api/oh_draw.py"
+    }
+  ]
+}
